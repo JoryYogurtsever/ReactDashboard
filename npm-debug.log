@@ -1,0 +1,163 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'create-reacct-app',
+1 verbose cli   'ReactTutorialDashboard' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 verbose config Skipping project config: /home/joryrae/.npmrc. (matches userconfig)
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly fetchPackageMetaData create-reacct-app
+9 silly fetchPackageMetaData ReactTutorialDashboard
+10 silly fetchNamedPackageData create-reacct-app
+11 silly mapToRegistry name create-reacct-app
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/create-reacct-app
+15 silly fetchNamedPackageData ReactTutorialDashboard
+16 silly mapToRegistry name ReactTutorialDashboard
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/ReactTutorialDashboard
+20 verbose request uri https://registry.npmjs.org/create-reacct-app
+21 verbose request no auth needed
+22 info attempt registry request try #1 at 10:54:04 AM
+23 verbose request id ac694c363d6c27a6
+24 http request GET https://registry.npmjs.org/create-reacct-app
+25 verbose request uri https://registry.npmjs.org/ReactTutorialDashboard
+26 verbose request no auth needed
+27 info attempt registry request try #1 at 10:54:04 AM
+28 http request GET https://registry.npmjs.org/ReactTutorialDashboard
+29 http 404 https://registry.npmjs.org/create-reacct-app
+30 verbose headers { date: 'Wed, 17 Oct 2018 03:54:06 GMT',
+30 verbose headers   'content-type': 'application/json',
+30 verbose headers   'content-length': '21',
+30 verbose headers   connection: 'keep-alive',
+30 verbose headers   'set-cookie':
+30 verbose headers    [ '__cfduid=d16674344b046871dcf829e6bc91a4f501539748445; expires=Thu, 17-Oct-19 03:54:05 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+30 verbose headers   'cf-cache-status': 'MISS',
+30 verbose headers   'cache-control': 'max-age=300',
+30 verbose headers   'cf-ray': '46afd26b48f13295-HKG',
+30 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+30 verbose headers   vary: 'accept-encoding, accept',
+30 verbose headers   server: 'cloudflare' }
+31 silly get cb [ 404,
+31 silly get   { date: 'Wed, 17 Oct 2018 03:54:06 GMT',
+31 silly get     'content-type': 'application/json',
+31 silly get     'content-length': '21',
+31 silly get     connection: 'keep-alive',
+31 silly get     'set-cookie':
+31 silly get      [ '__cfduid=d16674344b046871dcf829e6bc91a4f501539748445; expires=Thu, 17-Oct-19 03:54:05 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+31 silly get     'cf-cache-status': 'MISS',
+31 silly get     'cache-control': 'max-age=300',
+31 silly get     'cf-ray': '46afd26b48f13295-HKG',
+31 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+31 silly get     vary: 'accept-encoding, accept',
+31 silly get     server: 'cloudflare' } ]
+32 silly fetchPackageMetaData Error: Not found : create-reacct-app
+32 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+32 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+32 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+32 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+32 silly fetchPackageMetaData     at emitTwo (events.js:126:13)
+32 silly fetchPackageMetaData     at Request.emit (events.js:214:7)
+32 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+32 silly fetchPackageMetaData     at emitOne (events.js:121:20)
+32 silly fetchPackageMetaData     at Request.emit (events.js:211:7)
+32 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+32 silly fetchPackageMetaData  error for create-reacct-app { Error: Not found : create-reacct-app
+32 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+32 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+32 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+32 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+32 silly fetchPackageMetaData     at emitTwo (events.js:126:13)
+32 silly fetchPackageMetaData     at Request.emit (events.js:214:7)
+32 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+32 silly fetchPackageMetaData     at emitOne (events.js:121:20)
+32 silly fetchPackageMetaData     at Request.emit (events.js:211:7)
+32 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12) pkgid: 'create-reacct-app', statusCode: 404, code: 'E404' }
+33 http 404 https://registry.npmjs.org/ReactTutorialDashboard
+34 verbose headers { date: 'Wed, 17 Oct 2018 03:54:06 GMT',
+34 verbose headers   'content-type': 'application/json',
+34 verbose headers   'content-length': '21',
+34 verbose headers   connection: 'keep-alive',
+34 verbose headers   'set-cookie':
+34 verbose headers    [ '__cfduid=da2208613f38278352b33c0f53b9f20d41539748445; expires=Thu, 17-Oct-19 03:54:05 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+34 verbose headers   'cf-cache-status': 'MISS',
+34 verbose headers   'cache-control': 'max-age=300',
+34 verbose headers   'cf-ray': '46afd26b3afe84b4-HKG',
+34 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+34 verbose headers   vary: 'accept-encoding, accept',
+34 verbose headers   server: 'cloudflare' }
+35 silly get cb [ 404,
+35 silly get   { date: 'Wed, 17 Oct 2018 03:54:06 GMT',
+35 silly get     'content-type': 'application/json',
+35 silly get     'content-length': '21',
+35 silly get     connection: 'keep-alive',
+35 silly get     'set-cookie':
+35 silly get      [ '__cfduid=da2208613f38278352b33c0f53b9f20d41539748445; expires=Thu, 17-Oct-19 03:54:05 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+35 silly get     'cf-cache-status': 'MISS',
+35 silly get     'cache-control': 'max-age=300',
+35 silly get     'cf-ray': '46afd26b3afe84b4-HKG',
+35 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+35 silly get     vary: 'accept-encoding, accept',
+35 silly get     server: 'cloudflare' } ]
+36 silly fetchPackageMetaData Error: Not found : ReactTutorialDashboard
+36 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+36 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+36 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+36 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+36 silly fetchPackageMetaData     at emitTwo (events.js:126:13)
+36 silly fetchPackageMetaData     at Request.emit (events.js:214:7)
+36 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+36 silly fetchPackageMetaData     at emitOne (events.js:121:20)
+36 silly fetchPackageMetaData     at Request.emit (events.js:211:7)
+36 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+36 silly fetchPackageMetaData  error for ReactTutorialDashboard { Error: Not found : ReactTutorialDashboard
+36 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+36 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+36 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+36 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+36 silly fetchPackageMetaData     at emitTwo (events.js:126:13)
+36 silly fetchPackageMetaData     at Request.emit (events.js:214:7)
+36 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+36 silly fetchPackageMetaData     at emitOne (events.js:121:20)
+36 silly fetchPackageMetaData     at Request.emit (events.js:211:7)
+36 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+36 silly fetchPackageMetaData   pkgid: 'ReactTutorialDashboard',
+36 silly fetchPackageMetaData   statusCode: 404,
+36 silly fetchPackageMetaData   code: 'E404' }
+37 silly rollbackFailedOptional Starting
+38 silly rollbackFailedOptional Finishing
+39 silly runTopLevelLifecycles Starting
+40 silly runTopLevelLifecycles Finishing
+41 silly install printInstalled
+42 verbose stack Error: Not found : create-reacct-app
+42 verbose stack     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+42 verbose stack     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+42 verbose stack     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+42 verbose stack     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+42 verbose stack     at emitTwo (events.js:126:13)
+42 verbose stack     at Request.emit (events.js:214:7)
+42 verbose stack     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+42 verbose stack     at emitOne (events.js:121:20)
+42 verbose stack     at Request.emit (events.js:211:7)
+42 verbose stack     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+43 verbose statusCode 404
+44 verbose pkgid create-reacct-app
+45 verbose cwd /home/joryrae/Documents/ReactTutorialDashboard
+46 error Linux 4.16.8-041608-generic
+47 error argv "/usr/bin/node" "/usr/bin/npm" "install" "create-reacct-app" "ReactTutorialDashboard"
+48 error node v8.10.0
+49 error npm  v3.5.2
+50 error code E404
+51 error 404 Not found : create-reacct-app
+52 error 404
+53 error 404 'create-reacct-app' is not in the npm registry.
+54 error 404 You should bug the author to publish it (or use the name yourself!)
+55 error 404 Note that you can also install from a
+56 error 404 tarball, folder, http url, or git url.
+57 verbose exit [ 1, true ]
